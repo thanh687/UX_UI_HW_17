@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #28324B;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 15px;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 70%;
+    margin-bottom: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+.mainnav{
+    width: 50%;
+    margin-left: auto;
+    float: right;
+}
+#navitems{
+    float: right;
+    color: white;
+}
+.active{
+    text-decoration: underline solid #FBDE44;
+    color: #FBDE44;
+    font-weight: bold;
+}
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "hero myinfo";
+    justify-items: right;  
+    align-items: end;
+}
+.myinfo{
+    grid-area: myinfo;
+}
+.myname{
+    font-size: 3em;
+    grid-area: myname; 
+    font-family: 'Fascinate', cursive;
+    margin-bottom:0;
+    padding-left: 3%;
+    color: #FBDE44;
+}
+.title{
+    grid-area: title;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 3%;
+    color: #FBDE44;
+    margin-top:0.5em;
+}
+.hero{
+    grid-area: hero;
+    width: 75%;
+}
+.intro{
+    grid-area: intro;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    background-color: #F65158;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+footer{
+    background-color: #373738;
+    padding-left: 40%;
+    padding-right: 5%;
+    position: fixed;
+    bottom: 0;
+    font-size: 1em;
+    color: white;
+
+
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+.logomark{
+    width: 15%;
+    height:15%;
+}
